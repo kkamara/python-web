@@ -11,7 +11,7 @@ def index(request):
   return render(request, 'index.html', context)
 
 def counter(request):
-  text = request.GET['text']
+  text = request.POST['text']
   amountOfWords = len(text.split())
   return render(
     request, 'counter.html', { 'amountOfWords': amountOfWords })
