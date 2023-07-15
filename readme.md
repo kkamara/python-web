@@ -24,6 +24,33 @@ source .venv/bin/activate
 (.venv) py3 manage.py runserver 8000
 ```
 
+## iPython Django Shell
+
+```bash
+  python3 manage.py shell -i ipython
+```
+
+## API
+
+```bash
+  python manage.py show_urls
+```
+
+View the api collection [here](https://documenter.getpostman.com/view/17125932/UVyxQYrt).
+
+## Admin
+
+```bash
+export DJANGO_SUPERUSER_PASSWORD=secret
+
+python manage.py createsuperuser \
+  --username admin_user \
+  --email admin@foobarbazz.com \
+  --no-input \
+  --first_name Admin \
+  --last_name User
+```
+
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
