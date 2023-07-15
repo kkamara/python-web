@@ -108,6 +108,9 @@
             {% elif feature.isTrue == False %}
             <p>This feature is False</p>
             {% endif %}
+            {% if feature.name == 'Test Feature 1' %}
+            <p>This feature says our site is quick.</p>
+            {% endif %}
           </div>
         </div>
         {% endfor %}
