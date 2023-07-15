@@ -6,8 +6,7 @@
 
 ## Requirements
 
-* [Python](https://www.python.org)
-* [MySQL connector drivers](https://docs.djangoproject.com/en/4.2/ref/databases/#mysql-db-api-drivers).
+* [Python](https://www.python.org).
 
 ## Installation
 
