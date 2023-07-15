@@ -6,7 +6,7 @@
 '''
 Python Backend Web Development Course (with Django)
 https://www.youtube.com/watch?v=jBzwzrDvZ18
-05:29:02
+06:08:46
 '''
 ```
 
