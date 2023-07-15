@@ -27,13 +27,13 @@ source .venv/bin/activate
 ## iPython Django Shell
 
 ```bash
-  python3 manage.py shell -i ipython
+(.venv) python3 manage.py shell -i ipython
 ```
 
 ## API
 
 ```bash
-  python manage.py show_urls
+(.venv) python manage.py show_urls
 ```
 
 View the api collection [here](https://documenter.getpostman.com/view/17125932/UVyxQYrt).
@@ -41,9 +41,9 @@ View the api collection [here](https://documenter.getpostman.com/view/17125932/U
 ## Admin
 
 ```bash
-export DJANGO_SUPERUSER_PASSWORD=secret
+(.venv) export DJANGO_SUPERUSER_PASSWORD=secret
 
-python manage.py createsuperuser \
+(.venv) python manage.py createsuperuser \
   --username admin_user \
   --email admin@foobarbazz.com \
   --no-input
