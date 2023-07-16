@@ -46,3 +46,7 @@ def login(request):
 def logout(request):
   auth.logout(request)
   return redirect('/')
+
+def post(request, pk):
+  context = { 'pk': pk }
+  return render(request, 'post.html', context)
