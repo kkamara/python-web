@@ -2,13 +2,7 @@
 
 # Python Web
 
-```python
-'''
-Python Backend Web Development Course (with Django)
-https://www.youtube.com/watch?v=jBzwzrDvZ18
-06:08:46
-'''
-```
+
 
 ## Requirements
 
