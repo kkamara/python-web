@@ -47,6 +47,12 @@ def logout(request):
   auth.logout(request)
   return redirect('/')
 
+def posts(request):
+  posts = [
+    {'id': 1}, {'id': 2}, {'id': 3}, {'id': 4}]
+  context = { 'posts': posts }
+  return render(request, 'posts.html', context)
+
 def post(request, pk):
   context = { 'pk': pk }
   return render(request, 'post.html', context)
